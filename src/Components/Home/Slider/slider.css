@@ -1,0 +1,20 @@
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply  rounded-full transition-all duration-200; /* okun arka planı */
+    
+}
+/* 
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  @apply bg-transparent; 
+}  hover olunca okun arka planı */
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  @apply dark:text-dark-primary text-light-primary transition-all ; /* Ok simgelerinin rengi */
+}
+.swiper-button-next:after:hover,
+.swiper-button-prev:after:hover {
+  @apply brightness-150  duration-300; /* Ok simgelerinin hover olunca rengi */
+}
