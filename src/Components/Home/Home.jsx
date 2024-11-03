@@ -1,6 +1,6 @@
 import Header from "./Header/Header"
 import Slider from "./Slider/Slider"
-import Cards from "./cards/Cards"
+import Cards from "./Cards/Cards"
 
 const Home = () => {
   return (

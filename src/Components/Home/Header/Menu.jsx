@@ -10,7 +10,7 @@ import { IoMdClose } from "react-icons/io";
 import { useSelector } from "react-redux";
 
 const Menu = ({ setModal,toggleMenu }) => {
-  const {menuItems} = useSelector((store) => store.menuItems)
+  const {menuItems} = useSelector((store) => store.slide)
 
   return (
     <>

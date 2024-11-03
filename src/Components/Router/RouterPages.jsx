@@ -1,6 +1,6 @@
 //Route components
 import { Routes, Route } from "react-router-dom";
-import InfoWrapper from "../info/InfoWrapper";
+import InfoWrapper from "../Info/InfoWrapper";
 import Blogs from "../Blogs/Blogs";
 import Blog from "../Blogs/Blog";
 import ResetPassword from "../Signing/ResetPassword";

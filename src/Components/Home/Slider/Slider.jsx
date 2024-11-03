@@ -22,7 +22,7 @@ const Slider = () => {
   //   'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'
   // ];
   // const fullYear = `${day} ${monthNames[monthIndex]} ${year}`
-  const { blogData } = useSelector((store) => store.blogData);
+  const { blogData } = useSelector((store) => store.slide);
   return (
     <div
       className=" dark:bg-dark-primary transition-all px-10 relative "

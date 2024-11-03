@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
-import CardItem from "../Home/cards/CardItem";
+import CardItem from "../Home/Cards/CardItem";
 import Header from "../Home/Header/Header";
 // import Blog from "./Blog"
 const Blogs = () => {
-  const {blogData} = useSelector(store => store.blogData);
+  const {blogData} = useSelector(store => store.slide);
   return (
     <>
       <Header />

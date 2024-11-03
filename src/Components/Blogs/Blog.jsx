@@ -1,13 +1,13 @@
 import { Avatar } from "@mui/material";
 import avatar from "../../Assets/images/avatar.jpg";
-import CardItem from "../Home/cards/CardItem";
+import CardItem from "../Home/Cards/CardItem";
 import { useSelector } from "react-redux";
 import Header from "../Home/Header/Header";
 // img, blogType, title, paragraph, date, sum
 
 const Blog = () => {
-  const { blog } = useSelector((store) => store.blog);
-  const {blogData} = useSelector(store => store.blogData);
+  const { blog } = useSelector((store) => store.slide);
+  const {blogData} = useSelector(store => store.slide);
 
   return (
     <>
